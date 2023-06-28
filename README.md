@@ -9,4 +9,4 @@ Script d'installation en shell
 ```bash
 git clone https://github.com/sbeteta42/glpi/main/glpi.git
 chmod +x install_glpi_fusioninventory.sh
-./install_glpi_fusioninventory.sh
+./install_glpi_fusionInventory.sh
