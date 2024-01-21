@@ -19,6 +19,7 @@ apt-get install apache2 php libapache2-mod-php -y
 apt-get install php-imap php-ldap php-curl php-xmlrpc php-gd php-mysql php-cas -y
 apt-get install mariadb-server -y
 apt-get install apcupsd php-apcu php7.2-mbstring php7.2-intl php7.2-zip php7.2-bz2 mc -y
+clear
 
 # on relance apache et mariadb
 echo "on active le service apache et mariadb"
@@ -34,10 +35,12 @@ mysql -u root -e "flush privileges;"
 # download de glpi
 echo " Download de GLPI 9.5.7"
 wget https://github.com/glpi-project/glpi/releases/download/9.5.7/glpi-9.5.7.tgz
+clear
 
 #dezip de glpi dans /var/www/html
 echo "Decompression de l'archuve tarGZ vers /var/www/html"
 tar zxvf glpi-9.5.7.tgz -C /var/www/html
+clear
 
 # on met les droits sur le dossier glpi
 chown -R www-data /var/www/html/glpi
