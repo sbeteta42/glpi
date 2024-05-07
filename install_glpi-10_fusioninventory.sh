@@ -12,11 +12,13 @@ clear
 echo "Installation du socle LAMP "
 sleep 3
 sudo apt-get install apache2 php mariadb-server -y
+clear
 
 # installation des dependances fonctionnelles
 echo "installation des dependances fonctionnelles"
 sleep 5
 sudo apt-get install php-xml php-common php-json php-mysql php-mbstring php-curl php-gd php-intl php-zip php-bz2 php-imap php-apcu php-ldap -y
+clear
 
 # creation de la base de données
 echo "creation de la base de données"
@@ -35,7 +37,7 @@ wget https://github.com/glpi-project/glpi/releases/download/10.0.15/glpi-10.0.15
 #dezip de glpi dans /var/www/html
 echo "Dezippage de GLPI"
 sleep 3
-sudo tar -xzvf glpi-10.0.11.tgz -C /var/www/html
+sudo tar -xzvf glpi-10.0.15.tgz -C /var/www/html
 
 # on met les droits sur le dossier glpi
 sudo chown www-data /var/www/html/glpi/ -R
@@ -53,4 +55,4 @@ sudo tar jxvf glpi-glpiinventory-1.0.3.tar.bz2 -C /var/www/html/glpi/plugins
 # on relance apache et mariadb
 sudo /etc/init.d/apache2 restart
 sudo /etc/init.d/mariadb restart
-echo "Installation de GLPI et fusioninventory TERMINE
+echo "Installation de GLPI et fusioninventory TERMINE"
