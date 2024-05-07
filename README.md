@@ -1,4 +1,4 @@
-#GLPI avec le plugin FusionInvenntory
+# GLPI avec le plugin FusionInvenntory
 Script d'installation en shell
 
 # Pre-requis
