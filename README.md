@@ -1,8 +1,8 @@
-# glpi et plugin FusionInvenntory
+#GLPI avec le plugin FusionInvenntory
 Script d'installation en shell
 
 # Pre-requis
-- OS: UNBUNTU SERVER 18.04
+- OS: Debian 12
 - apt install -y openssh-server git
 
 # Installation
