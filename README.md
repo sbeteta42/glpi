@@ -6,8 +6,8 @@ Script d'installation en shell
 - apt install -y openssh-server git
 
 # Note d'information
-Depuis peu le plugin Fusion Inventory pour GLPI ne foctionne plus depuis les verssions 10 de GLPI.
-Il faut utiliser le pugin GPLI INVENTORY
+Depuis peu le plugin Fusion Inventory pour GLPI ne fonctionne plus depuis les versions 10 de GLPI.
+Il faut utiliser le plugin GPLI INVENTORY
 Le script mis à disposition installe GLPI avec le plugin GLPI INVENTORY 
 
 # Installation
