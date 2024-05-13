@@ -1,8 +1,8 @@
-# GLPI avec le plugin FusionInvenntory
+# GLPI avec le plugin GLPI Invenntory (Et plus FUSION INVENTORY !)
 Script d'installation en shell
 
 # Pre-requis
-- OS: Debian 12
+- OS: Debian 12 core
 - apt install -y openssh-server git
 
 # Note d'information
