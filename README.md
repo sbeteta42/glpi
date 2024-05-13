@@ -1,4 +1,4 @@
-# GLPI avec le plugin GLPI Invenntory (Et plus FUSION INVENTORY !)
+# GLPI avec le plugin GLPI Inventory (Et plus FUSION INVENTORY !)
 Script d'installation en shell
 
 # Pre-requis
