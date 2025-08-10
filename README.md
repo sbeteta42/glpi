@@ -31,12 +31,12 @@ Script d'installation en shell
 apt install -y openssh-server git
 ```
 ## 🛠️ Installation 
-``bash
+```bash
 git clone https://github.com/sbeteta42/glpi.git
 cd glpi
 chmod +x install_glpi-10_fusioninventory.sh
 ./install_glpi-10_fusioninventory.sh
-``
+```
 ## 🌐 Accès Web
 LAN : http://<glpi_ip>/
 🔐 Post-install & sécurité
