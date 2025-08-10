@@ -23,9 +23,9 @@ Script d'installation en shell
 - Le nouveau script mis à disposition installe GLPI avec le plugin GLPI INVENTORY 
 
 ## 📦 Prérequis 
-**OS** : Debian 11/12 ou Ubuntu 20.04/22.04 (Server)
-**Réseau** : accès Internet + SSH
-**Paquets** : `nginx` ou `apache2`, `php` (+ extensions), `mariadb-server`, `git`, `curl`, …
+- **OS** : Debian 11/12 ou Ubuntu 20.04/22.04 (Server)
+- **Réseau** : accès Internet + SSH
+- **Paquets** : `nginx` ou `apache2`, `php` (+ extensions), `mariadb-server`, `git`, `curl`, …
 
 ```bash
 apt install -y openssh-server git
