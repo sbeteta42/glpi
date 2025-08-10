@@ -26,6 +26,7 @@ Script d'installation en shell
 **OS** : Debian 11/12 ou Ubuntu 20.04/22.04 (Server)
 **Réseau** : accès Internet + SSH
 **Paquets** : `nginx` ou `apache2`, `php` (+ extensions), `mariadb-server`, `git`, `curl`, …
+
 ```bash
 apt install -y openssh-server git
 ```
