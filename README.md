@@ -39,10 +39,8 @@ chmod +x install_glpi-10_fusioninventory.sh
 ```
 ## 🌐 Accès Web
 LAN : http://<glpi_ip>/
-🔐 Post-install & sécurité
 
-## ⚠️ Sécurité
-
+## 🔐 Post-install & sécurité
 - Changer tous les mots de passe (DB, GLPI)
 - Supprimer/renommer /install après setup
 - Activer HTTPS (Let’s Encrypt) si exposé
