@@ -1,4 +1,4 @@
-# ![GLPI Logo](https://glpi-project.org/wp-content/uploads/2022/05/logo-glpi.svg) GLPI : Déploiement pour TP / PoC 🧰
+# ![GLPI Logo](https://glpi-project.org/fr/) GLPI : Déploiement pour TP / PoC 🧰
 
 ![OS](https://img.shields.io/badge/OS-Debian%2011%2F12%20|%20Ubuntu%2020.04%2F22.04-blue)
 ![Stack](https://img.shields.io/badge/Stack-PHP%20|%20MariaDB%20|%20Nginx%2FApache-orange)
