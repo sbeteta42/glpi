@@ -26,7 +26,7 @@
 ## 📚 Note d'information
 - Depuis peu le plugin Fusion Inventory pour GLPI ne fonctionne plus depuis les versions 10 de GLPI.
 - Il faut utiliser le plugin GPLI INVENTORY
-- Le nouveau script mis à disposition installe GLPI avec le plugin GLPI INVENTORY
+- Le nouveau script mis à disposition installe GLPI avec le plugin GLPI INVENTORY avec un certificat HTTPS
 
 ## 🛠️ Caractéristiques du script
 - Installation automatisée du GLPI 11.0.0-rc3
