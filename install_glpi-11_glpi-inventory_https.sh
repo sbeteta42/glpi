@@ -15,6 +15,7 @@ GLPI_DIR="/var/www/glpi"
 SSL_DIR="/etc/ssl/glpi"
 SITE_CONF="/etc/apache2/sites-available/glpi.conf"
 DOMAIN_NAME="formation.lan"
+SERVER_IP=$(hostname -I | awk '{print $1}')
 DB_NAME="glpidb"
 DB_USER="glpiuser"
 
@@ -228,9 +229,9 @@ EOF
 open_browser() {
     if command -v xdg-open &>/dev/null; then
         log_info "Ouverture de GLPI dans le navigateur..."
-        xdg-open "https://$DOMAIN_NAME/install/install.php" >/dev/null 2>&1 &
+        xdg-open "https://$SERVER_IP/install/install.php" >/dev/null 2>&1 &
     else
-        log_info "Accédez à GLPI sur: https://$DOMAIN_NAME/install/install.php"
+        log_info "Accédez à GLPI sur: https://$SERVER_IP/install/install.php"
     fi
 }
 
