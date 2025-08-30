@@ -15,7 +15,13 @@
 3. [Installation (script)](#-installation-script)
 
 ## 💡 À propos
-Script d'installation en shell
+Ce projet fournit un script Bash sécurisé et automatisé pour installer GLPI 11.x sur les serveurs Debian/Ubuntu.
+
+Nouveautés de cette version :
+
+    Prise en charge de HTTP/2 pour Apache HTTPS
+    Certificat ECDSA SSL auto-signé (prime256v1)
+    :: Global session.cookie_securel'application en PHP
 
 ## Note d'information
 - Depuis peu le plugin Fusion Inventory pour GLPI ne fonctionne plus depuis les versions 10 de GLPI.
