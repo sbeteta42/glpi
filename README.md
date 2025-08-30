@@ -68,7 +68,7 @@ LAN : http://<glpi_ip>/glpi
 ## 🔐 Post-install & sécurité
 - Changer tous les mots de passe (DB, GLPI)
 - Supprimer/renommer /install après setup
-- Activer HTTPS (Let’s Encrypt) si exposé
+- Activer HTTPS (Let’s Encrypt) si exposé sur Internet
 - Sauvegardes : dumps SQL + .../glpi/files/
 
 ## 📚 Documentation
