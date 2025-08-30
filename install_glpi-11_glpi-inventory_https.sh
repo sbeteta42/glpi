@@ -228,9 +228,9 @@ EOF
 open_browser() {
     if command -v xdg-open &>/dev/null; then
         log_info "Ouverture de GLPI dans le navigateur..."
-        xdg-open "https://$IP/install/install.php" >/dev/null 2>&1 &
+        xdg-open "https://$DOMAIN_NAME/install/install.php" >/dev/null 2>&1 &
     else
-        log_info "Accédez à GLPI sur: https://$IP/install/install.php"
+        log_info "Accédez à GLPI sur: https://$DOMAIN_NAME/install/install.php"
     fi
 }
 
