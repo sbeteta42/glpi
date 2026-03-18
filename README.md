@@ -47,7 +47,7 @@
     Certificat ECDSA SSL (prime256v1) pour l'amélioration de la cryptographie
     Les fichiers cache et les dossiers de session sont automatiquement effacés
 
-## 📦 Prérequis 
+## 📋 Prérequis 
 - **OS** : Debian 11/12 ou Ubuntu 20.04/22.04 (Server)
 - **Réseau** : accès Internet + SSH
 - **Paquets** : `nginx` ou `apache2`, `php` (+ extensions), `mariadb-server`, `git`, `curl`, …
@@ -55,7 +55,7 @@
 ```bash
 apt install -y openssh-server git
 ```
-## 🛠️ Installation 
+## ⚙️ Installation 
 ```bash
 git clone https://github.com/sbeteta42/glpi.git
 cd glpi
