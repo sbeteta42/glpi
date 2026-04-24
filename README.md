@@ -29,7 +29,7 @@
 - Le nouveau script mis à disposition installe GLPI avec le plugin GLPI INVENTORY avec un certificat HTTPS
 
 ## 🛠️ Caractéristiques du script
-- Installation automatisée du GLPI 11.0.0-rc3
+- Installation automatisée du GLPI 11.0.0-rc3 avec le plugin GLPI-INVENTORY
 - Contrôle et installation des dépendances (Apache2, MariaDB, PHP 8.2 et modules requis)
 - Configuration de la base de données avec création d'utilisateurs
 - Confine d'hôte virtuel Apache: HTTP & HTTPS avec HTTP/2
