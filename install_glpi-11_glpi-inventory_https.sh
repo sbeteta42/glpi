@@ -7,7 +7,7 @@ set -e
 # ====================================================================================
 
 # ===============================
-# CONFIGURATION VARIABLES
+# CONFIGURATION DES VARIABLES
 # ===============================
 GLPI_VERSION="11.0.0-rc3"
 GLPI_URL="https://github.com/glpi-project/glpi/releases/download/${GLPI_VERSION}/glpi-${GLPI_VERSION}.tgz"
@@ -92,7 +92,7 @@ install_dependencies() {
     DEPENDENCIES=(
         apache2 mariadb-server mariadb-client wget unzip tar \
         php8.2 php8.2-cli php8.2-fpm php8.2-mysql php8.2-curl php8.2-xml php8.2-mbstring \
-        php8.2-ldap php8.2-zip php8.2-bz2 php8.2-gd php8.2-intl php8.2-bcmath
+        php8.2-ldap php8.2-zip php8.2-bz2 php8.2-gd php8.2-intl php8.2-bcmath php-ldap
     )
     for pkg in "${DEPENDENCIES[@]}"; do
         install_if_missing "$pkg"
@@ -117,7 +117,7 @@ Téléchargement et installation de GLPI..."
 }
 
 configure_apache_http() {
-    log_info "Configuration de Apache HTTP..."
+    log_info "Configuration de Apache2 HTTP..."
     cat > "$SITE_CONF" <<EOF
 <VirtualHost *:80>
     ServerName $DOMAIN_NAME
@@ -138,12 +138,12 @@ configure_apache_http() {
 </VirtualHost>
 EOF
 # Download de Glpi-inventory
-echo "[7/9] Download de Glpi-inventory"
+echo "[7/9] Download de GLPI-INVENTORY"
 sleep 3
 wget https://github.com/glpi-project/glpi-inventory-plugin/releases/download/1.6.0-beta1/glpi-glpiinventory-1.6.0-beta1.tar.bz2
 
 # On detare Glpi-inventory dans /var/www/glpi
-echo "[8/9] On detare Gloi-inventory dans /var/www/glpi"
+echo "[8/9] On detare GlPi-INVENTORY dans /var/www/glpi"
 sleep 3
 sudo tar jxvf glpi-glpiinventory-1.6.0-beta1.tar.bz2 -C /var/www/glpi/plugins
 
