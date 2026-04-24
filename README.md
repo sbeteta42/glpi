@@ -1,3 +1,4 @@
+[!logo glpi](https://www.glpi-project.org/wp-content/uploads/2025/03/glpi-teclib-color-logo.svg)
 <center><H1>GLPI : Déploiement pour TP / PoC 🧰</H1></center>
 
 ![OS](https://img.shields.io/badge/OS-Debian%2011%2F12%20|%20Ubuntu%2020.04%2F22.04-blue)
